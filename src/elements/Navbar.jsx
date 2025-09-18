@@ -73,7 +73,7 @@ const Navbar = () => {
           🏠 Your Goals
         </h1>
 
-        {isUser &&
+        {!isUser &&
           <div className="flex gap-4">
             <button onClick={loginDetails} className="px-5 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold transition">
               Login
