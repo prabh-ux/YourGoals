@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './pages/Home.jsx'
+import Home from './pages/Home'
 import { Route, Router, Routes } from 'react-router-dom'
-import Notes from './pages/Notes.jsx'
-import Navbar from './elements/Navbar.jsx'
+import Notes from './pages/Notes'
+import Navbar from './elements/Navbar'
 
 function App() {
 
